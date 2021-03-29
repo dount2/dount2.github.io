@@ -1,0 +1,25 @@
+---
+layout: single
+title: "입력문2!"
+--- 
+
+~~~
+
+a = "061215-3456789"
+print('{0} 월'.format(a[2:4]))
+print('{0} 일'.format(a[4:6]))
+
+a = input("전화번호: ")
+print('전화번호 뒷자리 4글자: {0}'.format(a[7:12]))
+
+a = input('비밀번호: ')
+print(len(a))
+
+a = input('비밀번호: ')
+x = 0215 in a
+print(x)
+
+", ".join('가나다라마바사아')
+
+~~~
+
